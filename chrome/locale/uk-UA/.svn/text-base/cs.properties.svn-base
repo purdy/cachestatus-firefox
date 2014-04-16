@@ -1,0 +1,4 @@
+ramcache=Кеш пам'яті
+diskcache=Дисковий кеш
+nly=Ще не завантажено
+extensions.cache@status.org.description=Легкий моніторинг та керування кешем з рядка стану

@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Impostazioni di Cache Status">
+<!ENTITY presence.label "Aspetto">
+<!ENTITY presence_original.label "Mostra icone e testo">
+<!ENTITY presence_original.accesskey "M">
+<!ENTITY presence_icons.label "Mostra solo icone">
+<!ENTITY presence_icons.accesskey "i">
+<!ENTITY auto_update.label "Aggiorna automaticamente le informazioni sulla cache">
+<!ENTITY auto_update.accesskey "A">
+<!ENTITY au_tooltip.label "Potrebbe causare rallentamenti/crash">
+<!ENTITY ram_max.label "Cache RAM massima (KB): ">
+<!ENTITY ram_max.accesskey "R">
+<!ENTITY disk_max.label "Cache disco massima (KB): ">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "Eliminazione automatica dei dati della cache">
+<!ENTITY auto_clear_note.label "Nota:">
+<!ENTITY auto_clear_note2.label "le impostazioni qui sotto verranno ignorate se il valore inserito per cache RAM e cache disco è rispettivamente inferiore a 10 MB">
+<!ENTITY auto_clear_ram.label "Elimina automaticamente i dati della cache RAM al:">
+<!ENTITY auto_clear_ram.accesskey "u">
+<!ENTITY acr_tooltip.label "I dati verranno automaticamente eliminati al raggiungimento della percentuale">
+<!ENTITY auto_clear_disk.label "Elimina automaticamente i dati della cache disco al:">
+<!ENTITY auto_clear_disk.accesskey "t">
+<!ENTITY acd_tooltip.label "I dati verranno automaticamente eliminati al raggiungimento della percentuale">
+<!ENTITY clear_ram.label "Elimina i dati della cache RAM">
+<!ENTITY clear_ram.accesskey "R">
+<!ENTITY clear_disk.label "Elimina i dati della cache disco">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "Elimina tutti i dati">
+<!ENTITY clear_all.accesskey "E">
+<!ENTITY update_stats.label "Aggiorna le informazioni sulla cache">
+<!ENTITY update_stats.accesskey "l">

@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Cache Status extensie-instellingen">
+<!ENTITY presence.label "Aanwezigheid in statusbalk">
+<!ENTITY presence_original.label "Origineel">
+<!ENTITY presence_original.accesskey "O">
+<!ENTITY presence_icons.label "Pictogrammen">
+<!ENTITY presence_icons.accesskey "P">
+<!ENTITY auto_update.label "Statistieken automatisch bijwerken">
+<!ENTITY auto_update.accesskey "A">
+<!ENTITY au_tooltip.label "Kan traagheid of crashes veroorzaken">
+<!ENTITY ram_max.label "Maximale RAM cache instellen (KB):">
+<!ENTITY ram_max.accesskey "R">
+<!ENTITY disk_max.label "Maximale schijfcache instellen (KB):">
+<!ENTITY disk_max.accesskey "S">
+<!ENTITY auto_clear.caption "Automatisch opschonen">
+<!ENTITY auto_clear_note.label "OPMERKING:">
+<!ENTITY auto_clear_note2.label "Uw onderstaande instellingen worden genegeerd als ze te laag zijn. De percentages dienen minimaal 10 MB op te leveren.">
+<!ENTITY auto_clear_ram.label "RAM automatisch opschonen bij:">
+<!ENTITY auto_clear_ram.accesskey "u">
+<!ENTITY acr_tooltip.label "De RAM cache wordt automatisch opgeschoond als het percentage deze hoeveelheid bereikt.">
+<!ENTITY auto_clear_disk.label "Schijf opschonen bij:">
+<!ENTITY auto_clear_disk.accesskey "f">
+<!ENTITY acd_tooltip.label "De schijfcache wordt automatisch opgeschoond als het percentage deze hoeveelheid bereikt.">
+<!ENTITY clear_ram.label "RAM cache opschonen">
+<!ENTITY clear_ram.accesskey "o">
+<!ENTITY clear_disk.label "Schijfcache opschonen">
+<!ENTITY clear_disk.accesskey "S">
+<!ENTITY clear_all.label "Alle cache opschonen">
+<!ENTITY clear_all.accesskey "A">
+<!ENTITY update_stats.label "Statistieken bijwerken">
+<!ENTITY update_stats.accesskey "b">

@@ -1,0 +1,4 @@
+ramcache=Caché de memoria
+diskcache=Caché de disco
+nly=Todavía sin cargar
+extensions.cache@status.org.description=Gestión fácil del estado de la caché desde la barra de estado

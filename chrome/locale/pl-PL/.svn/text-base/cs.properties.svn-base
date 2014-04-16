@@ -1,0 +1,4 @@
+ramcache=Pamięć RAM
+diskcache=Pamięć dyskowa
+nly=Nie załadowane
+extensions.cache@status.org.description=Łatwe zarządzanie i monitorowanie poziomu wykorzystania pamięci z panelu stanu

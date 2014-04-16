@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Cache Status - Einstellungen">
+<!ENTITY presence.label "Statusleisten-Anzeige">
+<!ENTITY presence_original.label "Symbole und Text">
+<!ENTITY presence_original.accesskey "T">
+<!ENTITY presence_icons.label "Symbole">
+<!ENTITY presence_icons.accesskey "S">
+<!ENTITY auto_update.label "Anzeige automatisch aktualisieren">
+<!ENTITY auto_update.accesskey "u">
+<!ENTITY au_tooltip.label "Kann zur Verlangsamung oder zu Abstürzen führen">
+<!ENTITY ram_max.label "Maximaler Arbeitsspeicher-Cache (KB):">
+<!ENTITY ram_max.accesskey "A">
+<!ENTITY disk_max.label "Maximaler Festplatten-Cache (KB):">
+<!ENTITY disk_max.accesskey "F">
+<!ENTITY auto_clear.caption "Automatisches Löschen">
+<!ENTITY auto_clear_note.label "Hinweis:">
+<!ENTITY auto_clear_note2.label "Ihre Einstellungen werden ignoriert, falls sie zu niedrig gesetzt sind. Die prozentuale Belegung sollte bis zu einem Minimum von 10 MB funktionieren.">
+<!ENTITY auto_clear_ram.label "Speicher-Cache automatisch löschen bei:">
+<!ENTITY auto_clear_ram.accesskey "c">
+<!ENTITY acr_tooltip.label "Löscht den Arbeitsspeicher-Cache, wenn die prozentuale Belegung diesen Wert erreicht">
+<!ENTITY auto_clear_disk.label "Festplattenspeicher automatisch löschen bei:">
+<!ENTITY auto_clear_disk.accesskey "p">
+<!ENTITY acd_tooltip.label "Löscht den Festplatten-Cache, wenn die prozentuale Belegung diesen Wert erreicht">
+<!ENTITY clear_ram.label "Speicher-Cache löschen">
+<!ENTITY clear_ram.accesskey "S">
+<!ENTITY clear_disk.label "Festplatten-Cache löschen">
+<!ENTITY clear_disk.accesskey "F">
+<!ENTITY clear_all.label "Gesamten Cache löschen">
+<!ENTITY clear_all.accesskey "G">
+<!ENTITY update_stats.label "Anzeige aktualisieren">
+<!ENTITY update_stats.accesskey "a">

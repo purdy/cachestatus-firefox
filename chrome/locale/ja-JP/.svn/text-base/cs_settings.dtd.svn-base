@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Cache Status の設定">
+<!ENTITY presence.label "ステータスバーの表示設定">
+<!ENTITY presence_original.label "文字とアイコン">
+<!ENTITY presence_original.accesskey "o">
+<!ENTITY presence_icons.label "アイコンのみ">
+<!ENTITY presence_icons.accesskey "i">
+<!ENTITY auto_update.label "キャッシュの状態を自動的に更新">
+<!ENTITY auto_update.accesskey "a">
+<!ENTITY au_tooltip.label "速度の低下やクラッシュを引き起こす可能性があります">
+<!ENTITY ram_max.label "メモリーの最大キャッシュ容量 (KB):">
+<!ENTITY ram_max.accesskey "r">
+<!ENTITY disk_max.label "ディスクの最大キャッシュ容量 (KB):">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "自動消去">
+<!ENTITY auto_clear_note.label "メモ:">
+<!ENTITY auto_clear_note2.label "Your settings below will be ignored if they are set too low. The percentages should work out to a minimum of 10 MB.">
+<!ENTITY auto_clear_ram.label "次の容量に達したらメモリーをクリア:">
+<!ENTITY auto_clear_ram.accesskey "m">
+<!ENTITY acr_tooltip.label "メモリーのキャッシュ量が一定の割合に達すると自動的に消去します。">
+<!ENTITY auto_clear_disk.label "次の容量に達したらディスクをクリア:">
+<!ENTITY auto_clear_disk.accesskey "s">
+<!ENTITY acd_tooltip.label "ディスクのキャッシュ量が一定の割合に達すると自動的に消去します。">
+<!ENTITY clear_ram.label "メモリーキャッシュを消去">
+<!ENTITY clear_ram.accesskey "r">
+<!ENTITY clear_disk.label "ディスクキャッシュを消去">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "すべてのキャッシュを消去">
+<!ENTITY clear_all.accesskey "a">
+<!ENTITY update_stats.label "最新の情報に更新">
+<!ENTITY update_stats.accesskey "u">

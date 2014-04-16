@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Налаштування Cache Status">
+<!ENTITY presence.label "Відображати у рядку стану">
+<!ENTITY presence_original.label "Типово">
+<!ENTITY presence_original.accesskey "Т">
+<!ENTITY presence_icons.label "Значки">
+<!ENTITY presence_icons.accesskey "З">
+<!ENTITY auto_update.label "Автоматичне оновлення статистики">
+<!ENTITY auto_update.accesskey "А">
+<!ENTITY au_tooltip.label "Може викликати сповільнення/аварійні відмови">
+<!ENTITY ram_max.label "Максимальний об'єм кешу пам'яті (кбайт):">
+<!ENTITY ram_max.accesskey "п">
+<!ENTITY disk_max.label "Максимальна кількість дискового кешу (кбайт):">
+<!ENTITY disk_max.accesskey "д">
+<!ENTITY auto_clear.caption "Автоматично очишувати">
+<!ENTITY auto_clear_note.label "Нотатка:">
+<!ENTITY auto_clear_note2.label "Вказані Вами налаштування будуть проігноровані у випадку дуже малої величини. Мінімальне значення у відсотках повинно бути еквівалентним 10МБ.">
+<!ENTITY auto_clear_ram.label "Автоматичне очищення кешу пам’яті при:">
+<!ENTITY auto_clear_ram.accesskey "в">
+<!ENTITY acr_tooltip.label "При увімкненні цієї функції кеш пам’яті буде автоматично очищуватись при досягненні певного значення у відсотках">
+<!ENTITY auto_clear_disk.label "Автоматичне очищення дискового кешу при:">
+<!ENTITY auto_clear_disk.accesskey "т">
+<!ENTITY acd_tooltip.label "При увімкненні цієї функції дисковий кеш буде автоматично очищуватись при досягненні певного значення у відсотках">
+<!ENTITY clear_ram.label "Очистити кеш пам'яті">
+<!ENTITY clear_ram.accesskey "п">
+<!ENTITY clear_disk.label "Очистити дисковий кеш">
+<!ENTITY clear_disk.accesskey "д">
+<!ENTITY clear_all.label "Очистити увесь кеш">
+<!ENTITY clear_all.accesskey "у">
+<!ENTITY update_stats.label "Поновити статистику">
+<!ENTITY update_stats.accesskey "с">

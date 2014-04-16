@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Nastavení rozšíření Cache Status">
+<!ENTITY presence.label "Zobrazení ve stavovém řádku">
+<!ENTITY presence_original.label "Původní">
+<!ENTITY presence_original.accesskey "p">
+<!ENTITY presence_icons.label "Ikony">
+<!ENTITY presence_icons.accesskey "i">
+<!ENTITY auto_update.label "Automatické obnovení stavu">
+<!ENTITY auto_update.accesskey "A">
+<!ENTITY au_tooltip.label "Může zpomalit nebo způsobit pád">
+<!ENTITY ram_max.label "Maximální vyrovnávací paměť pro RAM (KB): ">
+<!ENTITY ram_max.accesskey "R">
+<!ENTITY disk_max.label "Maximální vyrovnávací paměť pro disk (KB): ">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "Automatic Clearing">
+<!ENTITY auto_clear_note.label "NOTE:">
+<!ENTITY auto_clear_note2.label "Your settings below will be ignored if they are set too low. The percentages should work out to a minimum of 10 MB.">
+<!ENTITY auto_clear_ram.label "Automatically Clear RAM at:">
+<!ENTITY auto_clear_ram.accesskey "u">
+<!ENTITY acr_tooltip.label "This will automatically clear the RAM when the percentage reaches this amount.">
+<!ENTITY auto_clear_disk.label "Automatically Clear Disk at:">
+<!ENTITY auto_clear_disk.accesskey "t">
+<!ENTITY acd_tooltip.label "This will automatically clear the Disk Cache when the percentage reaches this amount.">
+<!ENTITY clear_ram.label "Vyprázdnit vyrovnávací paměť RAM">
+<!ENTITY clear_ram.accesskey "r">
+<!ENTITY clear_disk.label "Vyprázdnit diskovou vyrovnávací paměť">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "Vyprázdnit veškerou vyrovnávací paměť">
+<!ENTITY clear_all.accesskey "a">
+<!ENTITY update_stats.label "Obnovit stav">
+<!ENTITY update_stats.accesskey "o">

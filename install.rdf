@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+
+        <em:id>cache@status.org</em:id>
+        <em:name>Cache Status</em:name>
+        <em:version>0.7.10</em:version>
+        <em:description>Easy cache status &amp; management from status bar</em:description>
+        <em:creator>Jason Purdy</em:creator>
+        <em:translator>Michel Giovannini</em:translator>
+        <em:translator>Mikko Keski-Heroja</em:translator>
+        <em:translator>Guillermo</em:translator>
+        <em:translator>La Luciole</em:translator>
+        <em:translator>Rodrigo Laurindo</em:translator>
+        <em:translator>omgs</em:translator>
+        <em:translator>AlleyKat</em:translator>
+        <em:translator>Modex</em:translator>
+        <em:translator>garas</em:translator>
+        <em:translator>Team erweiterungen.de, ReinekeFux</em:translator>
+        <em:translator>Gianny111</em:translator>
+        <em:translator>xiaowm</em:translator>
+        <em:translator>kennith</em:translator>
+        <em:translator>Sergey Khoruzhin</em:translator>
+        <em:translator>Tomas Kopecny</em:translator>
+        <em:translator>Norah</em:translator>
+        <em:translator>Krcko</em:translator>
+        <em:translator>markh</em:translator>
+        <em:translator>wtspout</em:translator>
+        <em:translator>KosciaK</em:translator>
+        <em:translator>Ersen Yoldac</em:translator>
+        <em:translator>wladek</em:translator>
+        <em:translator>el_libre</em:translator>
+        <em:translator>lloco</em:translator>
+        <em:translator>barryoni</em:translator>
+        <!-- optional items -->
+        <em:homepageURL>https://addons.mozilla.org/firefox/addon/1881</em:homepageURL>
+        <em:aboutURL>chrome://cachestatus/content/about.xul</em:aboutURL>
+        <em:optionsURL>chrome://cachestatus/content/settings.xul</em:optionsURL>
+        <!-- <em:iconURL>chrome://cachestatus/skin/mainicon.png</em:iconURL> -->
+        <em:type>2</em:type>
+        <em:description>Easy cache status and management from status</em:description>
+        <em:creator>Jason Purdy</em:creator>
+        <em:developer>Jason Purdy</em:developer>
+        <em:file>
+            <Description about="urn:mozilla:extension:file:cachestatus">
+                <em:package>content/</em:package>
+                <em:skin>skin/</em:skin>
+            </Description>
+        </em:file>
+
+        <!-- Firefox -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>1.5</em:minVersion>
+                <em:maxVersion>4.0.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+
+</RDF>

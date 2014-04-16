@@ -1,0 +1,30 @@
+<!ENTITY settings_title.label "Paràmetres de Cache Status">
+<!ENTITY presence.label "Presència de la Bara d&apos;estat">
+<!ENTITY presence_original.label "Original">
+<!ENTITY presence_original.accesskey "o">
+<!ENTITY presence_icons.label "Icones">
+<!ENTITY presence_icons.accesskey "i">
+<!ENTITY auto_update.label "Actualització Automàtica de la Barra d&apos;Estat">
+<!ENTITY auto_update.accesskey "A">
+<!ENTITY au_tooltip.label "Pot provocar que vagi més lent/peti el programa">
+<!ENTITY ram_max.label "Marxa el Caxè Màxim de RAM (KOct):">
+<!ENTITY ram_max.accesskey "r">
+<!ENTITY disk_max.label "Marxa el Caxè Màxim de Disc Dur (KOct):">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "Neteja automàtica">
+<!ENTITY auto_clear_note.label "NOTA:">
+<!ENTITY auto_clear_note2.label "La teva configuració de sota serà ignorada si està marcada com a massa baixa.Els percentatges han de treballar com a mínim amb 10 MB">
+<!ENTITY auto_clear_ram.label "Neteja RAM automàticament en:">
+<!ENTITY auto_clear_ram.accesskey "u">
+<!ENTITY acr_tooltip.label "Això netejarà la RAM automàticament quan el percentatge superi el límit.">
+<!ENTITY auto_clear_disk.label "Automàticament Neteja el Disc en:">
+<!ENTITY auto_clear_disk.accesskey "t">
+<!ENTITY acd_tooltip.label "Això netejarà el disc dur ocupat automàticament quan el percentatge superi el límit.">
+<!ENTITY clear_ram.label "Neteja el Caxè de la RAM">
+<!ENTITY clear_ram.accesskey "r">
+<!ENTITY clear_disk.label "Neteja el caxè del Disc dur">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "Neteja el Caxè">
+<!ENTITY clear_all.accesskey "a">
+<!ENTITY update_stats.label "Actualitza estadístiques">
+<!ENTITY update_stats.accesskey "u">
