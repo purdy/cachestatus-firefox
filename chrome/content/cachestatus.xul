@@ -5,7 +5,7 @@
         
     <stringbundleset>
         <stringbundle
-            id="strings"
+            id="cache-status-strings"
             src="chrome://cachestatus/locale/cs.properties" />
     </stringbundleset>
  

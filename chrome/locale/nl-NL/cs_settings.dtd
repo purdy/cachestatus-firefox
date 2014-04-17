@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "P">
 <!ENTITY auto_update.label "Statistieken automatisch bijwerken">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Kan traagheid of crashes veroorzaken">
 <!ENTITY ram_max.label "Maximale RAM cache instellen (KB):">
 <!ENTITY ram_max.accesskey "R">
