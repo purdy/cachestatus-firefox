@@ -14,6 +14,7 @@ var CSSettings = {
 
         // Get the automatic update preference
         document.getElementById('auto_update').checked = prefs.getBoolPref('extensions.cachestatus.auto_update');
+        document.getElementById('welcome').checked = prefs.getBoolPref('extensions.cachestatus.welcome');
 
         // auto clear settings
         /*
@@ -48,6 +49,9 @@ var CSSettings = {
         // Set the 'auto_update' preference, using the state of the
         // checkbox
         prefs.setBoolPref( 'auto_update', document.getElementById('auto_update').checked );
+        // Set the 'welcome' preference, using the state of the
+        // checkbox
+        prefs.setBoolPref( 'welcome', document.getElementById('welcome').checked );
         /*
          This is being disabled for now:
          http://code.google.com/p/cachestatus/issues/detail?id=10

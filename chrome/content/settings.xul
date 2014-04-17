@@ -56,6 +56,12 @@
              accesskey="&disk_max.accesskey;" maxlength="8" size="6" />
     </hbox>
 
+    <checkbox
+        id="welcome"
+        label="&welcome.label;"
+        accesskey="&welcome.accesskey;"
+        checked="true" />
+    
     <!--
         // I'm disabling this for now b/c this functionality needs help. It
         // causes a lot of freezing or extension crashing. Some reports hint

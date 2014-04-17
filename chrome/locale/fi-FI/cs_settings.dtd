@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "k">
 <!ENTITY auto_update.label "Automaattinen Tietojen Päivitys">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Voi aiheuttaa hitautta/kaatuilua">
 <!ENTITY ram_max.label "Aseta Maksimi Muistin Välimuisti (Kt): ">
 <!ENTITY ram_max.accesskey "M">

@@ -6,9 +6,10 @@
 
         <em:id>cache@status.org</em:id>
         <em:name>Cache Status</em:name>
-        <em:version>0.7.10</em:version>
+        <em:version>0.8.1</em:version>
         <em:description>Easy cache status &amp; management from status bar</em:description>
         <em:creator>Jason Purdy</em:creator>
+        <em:contributor>Andy Portmen</em:contributor>
         <em:translator>Michel Giovannini</em:translator>
         <em:translator>Mikko Keski-Heroja</em:translator>
         <em:translator>Guillermo</em:translator>
@@ -38,7 +39,9 @@
         <em:homepageURL>https://addons.mozilla.org/firefox/addon/1881</em:homepageURL>
         <em:aboutURL>chrome://cachestatus/content/about.xul</em:aboutURL>
         <em:optionsURL>chrome://cachestatus/content/settings.xul</em:optionsURL>
-        <!-- <em:iconURL>chrome://cachestatus/skin/mainicon.png</em:iconURL> -->
+        <em:iconURL>chrome://cachestatus/skin/48.png</em:iconURL>
+        <em:icon64URL>chrome://cachestatus/skin/64.png</em:icon64URL>
+        <em:unpack>false</em:unpack>
         <em:type>2</em:type>
         <em:description>Easy cache status and management from status</em:description>
         <em:creator>Jason Purdy</em:creator>
@@ -55,7 +58,7 @@
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                 <em:minVersion>1.5</em:minVersion>
-                <em:maxVersion>4.0.*</em:maxVersion>
+                <em:maxVersion>32.0</em:maxVersion>
             </Description>
         </em:targetApplication>
     </Description>

@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Otomatik Durum Güncellemesi">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Yavaşlığa/çökmeye yol açabilir">
 <!ENTITY ram_max.label "Azami RAM Önbelleğini ayarla (KB):">
 <!ENTITY ram_max.accesskey "r">

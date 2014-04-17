@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "I">
 <!ENTITY auto_update.label "Rafraîchissement automatique">
 <!ENTITY auto_update.accesskey "R">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Peut causer des ralentissements ou des dysfonctionnements">
 <!ENTITY ram_max.label "Fixer le maximum du cache mémoire à (Ko) :">
 <!ENTITY ram_max.accesskey "m">

@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Automatinis statistikos atnaujinimas">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Galimi sulėtėjimai/užlūžimai">
 <!ENTITY ram_max.label "Nustatyti maksimalų RAM podėlį (KB):">
 <!ENTITY ram_max.accesskey "R">
