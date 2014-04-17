@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "自动刷新显示">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "也许会导致浏览器变慢甚至崩溃">
 <!ENTITY ram_max.label "设置内存缓存最大值 (KB):">
 <!ENTITY ram_max.accesskey "r">

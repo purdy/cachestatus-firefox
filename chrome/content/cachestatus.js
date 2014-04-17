@@ -173,8 +173,50 @@ var csExtension = {
         this._branch.addObserver("", this, true);
         this._hbox = this.grabHBox();
         this.rebuildPresence( this._prefs.getCharPref( 'presence' ) );
+        
+        this.welcome();
     },
+    welcome: function () 
+    {
+        //Do not show welcome page if user has turned it off from Settings.
+        if (!csExtension._prefs.getBoolPref( 'welcome' )) {
+          return
+        }
+        //Detect Firefox version
+        var version = "";
+        try {
+            version = (navigator.userAgent.match(/Firefox\/([\d\.]*)/) || navigator.userAgent.match(/Thunderbird\/([\d\.]*)/))[1];
+        } catch (e) {}
 
+        function welcome(version) {
+            if (csExtension._prefs.getCharPref( 'version' ) == version) {
+                return;
+            }
+            //Showing welcome screen
+            setTimeout(function () {
+                var newTab = getBrowser().addTab("http://add0n.com/cache-status.html?version=" + version);
+                getBrowser().selectedTab = newTab;
+            }, 5000);
+            csExtension._prefs.setCharPref( 'version', version );
+        }
+
+        //FF < 4.*
+        var versionComparator = Components.classes["@mozilla.org/xpcom/version-comparator;1"]
+            .getService(Components.interfaces.nsIVersionComparator)
+            .compare(version, "4.0");
+        if (versionComparator < 0) {
+            var extMan = Components.classes["@mozilla.org/extensions/manager;1"].getService(Components.interfaces.nsIExtensionManager);
+            var addon = extMan.getItemForID("cache@status.org");
+            welcome(addon.version);
+        }
+        //FF > 4.*
+        else {
+            Components.utils.import("resource://gre/modules/AddonManager.jsm");
+            AddonManager.getAddonByID("cache@status.org", function (addon) {
+                welcome(addon.version);
+            });
+        }
+    },
     grabHBox: function()
     {
         var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"]

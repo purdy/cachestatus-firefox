@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "S">
 <!ENTITY auto_update.label "Anzeige automatisch aktualisieren">
 <!ENTITY auto_update.accesskey "u">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Kann zur Verlangsamung oder zu Abstürzen führen">
 <!ENTITY ram_max.label "Maximaler Arbeitsspeicher-Cache (KB):">
 <!ENTITY ram_max.accesskey "A">

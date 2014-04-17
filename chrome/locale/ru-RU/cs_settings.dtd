@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "о">
 <!ENTITY auto_update.label "Автоматически обновлять статистику">
 <!ENTITY auto_update.accesskey "в">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Может быть причиной замедления/аварийных отказов программы">
 <!ENTITY ram_max.label "Максимум кэша памяти (КБайт):">
 <!ENTITY ram_max.accesskey "а">

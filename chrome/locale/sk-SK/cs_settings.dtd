@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Automatická aktualizácia stavu">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Môže spôsobiť spomalenie/pády">
 <!ENTITY ram_max.label "Nastaviť maximálnu veľkosť RAM vyrovnávacej pamäte (KB):">
 <!ENTITY ram_max.accesskey "R">

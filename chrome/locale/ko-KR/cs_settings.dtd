@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "자동 상태 갱신">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "지연/충돌의 원인이 될 수 있습니다.">
 <!ENTITY ram_max.label "최대 RAM 캐쉬(KB)설정:">
 <!ENTITY ram_max.accesskey "r">

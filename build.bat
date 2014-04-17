@@ -13,3 +13,5 @@ cd build
 move %x%.xpi ..\
 cd ..
 rd build /s/q
+
+"C:\Program Files\Mozilla Firefox\Firefox.exe" %x%.xpi

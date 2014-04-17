@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "З">
 <!ENTITY auto_update.label "Автоматичне оновлення статистики">
 <!ENTITY auto_update.accesskey "А">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Може викликати сповільнення/аварійні відмови">
 <!ENTITY ram_max.label "Максимальний об'єм кешу пам'яті (кбайт):">
 <!ENTITY ram_max.accesskey "п">

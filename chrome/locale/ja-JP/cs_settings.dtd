@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "キャッシュの状態を自動的に更新">
 <!ENTITY auto_update.accesskey "a">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "速度の低下やクラッシュを引き起こす可能性があります">
 <!ENTITY ram_max.label "メモリーの最大キャッシュ容量 (KB):">
 <!ENTITY ram_max.accesskey "r">

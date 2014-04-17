@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Automatikus statisztika frissítése">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Ez a funkció  a rendszer meghibásodását okozhatja!!!">
 <!ENTITY ram_max.label "Maximális memóriahasználat beállítása">
 <!ENTITY ram_max.accesskey "r">

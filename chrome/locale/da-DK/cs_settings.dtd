@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Automatisk stat-opdatering">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Kan forårsage forsinkelser/nedbrud">
 <!ENTITY ram_max.label "Sæt maksimum RAM cache (KB):">
 <!ENTITY ram_max.accesskey "r">

@@ -2,10 +2,15 @@
 <!DOCTYPE window SYSTEM "chrome://cachestatus/locale/cs_settings.dtd">
 <overlay id="cachestatus"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <statusbar id="status-bar">
+        
+    <stringbundleset>
         <stringbundle
             id="strings"
             src="chrome://cachestatus/locale/cs.properties" />
+    </stringbundleset>
+ 
+    <hbox id="urlbar-icons">
+    <!-- <statusbar id="status-bar"> -->
         <statusbarpanel context="_child" id="cachestatus-panel">
             <menupopup>
                 <menuitem
@@ -28,7 +33,8 @@
             <popupset id="cs_popupset" />
             <hbox id="cs_presence" />
         </statusbarpanel>
-    </statusbar>
+    <!-- </statusbar>-->
+    </hbox>
     <!-- This imports our javascript. //-->
     <script type="application/x-javascript" src="chrome://cachestatus/content/cachestatus.js"/>
 </overlay>

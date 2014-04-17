@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Automatsko osvježavanje statistike">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Može uzrokovati usporavanje/rušenja">
 <!ENTITY ram_max.label "Postavite maksimalan RAM privremeni spremnik (KB):">
 <!ENTITY ram_max.accesskey "R">

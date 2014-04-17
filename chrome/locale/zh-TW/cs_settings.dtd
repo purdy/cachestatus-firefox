@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "I">
 <!ENTITY auto_update.label "數據自動更新 (A)">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "可能會導致系統緩慢及錯誤">
 <!ENTITY ram_max.label "設定最大暫存快取記憶體(KB)：(R)">
 <!ENTITY ram_max.accesskey "R">
