@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 <window class="dialog"
-	title="Cache Status - About"
-	orient="vertical"
-	autostretch="always"
-	onload="sizeToContent()"
-	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    title="Cache Status - About"
+    orient="vertical"
+    autostretch="always"
+    onload="sizeToContent()"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
+<!-- This imports our javascript. //-->
+<script type="application/x-javascript" src="chrome://cachestatus/content/about.js"/>
+    
 <!-- Original template by Jed Brown -->
 
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="Cache Status" style="font-weight: bold; font-size: x-large;"/>
-  <text value="ver. 0.7.9"/>
+  <text id="version" value=""/>
   <separator class="thin"/>
   <text value="Created By:" style="font-weight: bold;"/>
   <text value="Jason Purdy" class="url"
-		style="text-decoration: underline; color: blue;"
-        onclick="window.open('http://purdy.info'); window.close();"/>
+        style="text-decoration: underline; color: blue; cursor: pointer;"
+        onclick="about.open('http://purdy.info'); window.close();"/>
+  <separator class="thin"/>
+  <text value="Contributors:" style="font-weight: bold;"/>
+  <text value="Andy Portmen" class="url"
+        style="text-decoration: underline; color: blue;  cursor: pointer;"
+        onclick="about.open('https://addons.mozilla.org/en-US/firefox/user/AndyPortmen/'); window.close();"/>    
   <separator class="thin"/>
   <text value="Thanks To:" style="font-weight: bold;"/>
   <text value="God (for the talent)" />
@@ -136,18 +144,26 @@
   <separator class="thin"/>
   <text value="Icon Design:" style="font-weight: bold;"/>
   <text value="FamFamFam" class="url"
-		style="text-decoration: underline; color: blue;"
-        onclick="window.open('http://www.famfamfam.com/lab/icons/silk'); window.close();"/>
+        style="text-decoration: underline; color: blue;"
+        onclick="about.open('http://www.famfamfam.com/lab/icons/silk'); window.close();"/>
   <separator class="thin"/>
-  <text value="Home Page:" style="font-weight: bold;"/>
+  <text value="Home Page:" style="font-weight: bold; cursor: pointer;"/>
   <text value="Mozilla Addons Site"
          class="url"
-		 style="text-decoration: underline; color: blue;"
-         onclick="window.open('https://addons.mozilla.org/addon.php?id=1881'); window.close();"/>
+         style="text-decoration: underline; color: blue; cursor: pointer;"
+         onclick="about.open('https://addons.mozilla.org/addon.php?id=1881'); window.close();"/>
+  <text value="Add0n.com Homepage"
+         class="url"
+         style="text-decoration: underline; color: blue; cursor: pointer;"
+         onclick="about.open('http://add0n.com/cache-status.html'); window.close();"/>         
   <text value="Google Code Repository"
          class="url"
-		 style="text-decoration: underline; color: blue;"
-         onclick="window.open('http://code.google.com/p/cachestatus/'); window.close();"/>
+         style="text-decoration: underline; color: blue; cursor: pointer;"
+         onclick="about.open('http://code.google.com/p/cachestatus/'); window.close();"/>
+  <text value="GitHub Repository"
+         class="url"
+         style="text-decoration: underline; color: blue; cursor: pointer;"
+         onclick="about.open('https://github.com/purdy/cachestatus-firefox'); window.close();"/>
   <separator class="thin"/>
 </vbox>
 <spring flex="1"/>
