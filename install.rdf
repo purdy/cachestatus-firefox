@@ -36,7 +36,7 @@
         <em:translator>lloco</em:translator>
         <em:translator>barryoni</em:translator>
         <!-- optional items -->
-        <em:homepageURL>https://addons.mozilla.org/firefox/addon/1881</em:homepageURL>
+        <em:homepageURL>http://add0n.com/cache-status.html</em:homepageURL>
         <em:aboutURL>chrome://cachestatus/content/about.xul</em:aboutURL>
         <em:optionsURL>chrome://cachestatus/content/settings.xul</em:optionsURL>
         <em:iconURL>chrome://cachestatus/skin/48.png</em:iconURL>
