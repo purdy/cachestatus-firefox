@@ -1,4 +1,4 @@
-pref('extensions.cachestatus.presence','original');
+pref('extensions.cachestatus.presence','icons');
 pref('extensions.cachestatus.auto_update',true);
 pref('extensions.cache@status.org.description','chrome://cachestatus/locale/cs.properties');
 pref('extensions.cachestatus.auto_clear_ram',false);
