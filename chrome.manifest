@@ -9,6 +9,7 @@ locale cachestatus es-AR jar:chrome/cachestatus.jar!/locale/es-AR/
 locale cachestatus es-ES jar:chrome/cachestatus.jar!/locale/es-ES/
 locale cachestatus fi-FI jar:chrome/cachestatus.jar!/locale/fi-FI/
 locale cachestatus fr-FR jar:chrome/cachestatus.jar!/locale/fr-FR/
+locale cachestatus he-IL jar:chrome/cachestatus.jar!/locale/he-IL/
 locale cachestatus hr-HR jar:chrome/cachestatus.jar!/locale/hr-HR/
 locale cachestatus hu-HU jar:chrome/cachestatus.jar!/locale/hu-HU/
 locale cachestatus it-IT jar:chrome/cachestatus.jar!/locale/it-IT/
@@ -21,6 +22,7 @@ locale cachestatus pt-BR jar:chrome/cachestatus.jar!/locale/pt-BR/
 locale cachestatus pt-PT jar:chrome/cachestatus.jar!/locale/pt-PT/
 locale cachestatus ru-RU jar:chrome/cachestatus.jar!/locale/ru-RU/
 locale cachestatus sk-SK jar:chrome/cachestatus.jar!/locale/sk-SK/
+locale cachestatus sv-SE jar:chrome/cachestatus.jar!/locale/sv-SE/
 locale cachestatus tr-TR jar:chrome/cachestatus.jar!/locale/tr-TR/
 locale cachestatus uk-UA jar:chrome/cachestatus.jar!/locale/uk-UA/
 locale cachestatus zh-CN jar:chrome/cachestatus.jar!/locale/zh-CN/

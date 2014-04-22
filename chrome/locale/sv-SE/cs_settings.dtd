@@ -1,0 +1,32 @@
+<!ENTITY settings_title.label "Inställningar för Cache Status">
+<!ENTITY presence.label "Statusfältet">
+<!ENTITY presence_original.label "Originalutseende">
+<!ENTITY presence_original.accesskey "O">
+<!ENTITY presence_icons.label "Ikoner">
+<!ENTITY presence_icons.accesskey "I">
+<!ENTITY auto_update.label "Automatisk statusuppdatering">
+<!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
+<!ENTITY au_tooltip.label "Kan orsaka tröghet/krascher">
+<!ENTITY ram_max.label "Maxstorlek RAM-cacheminne (kB): ">
+<!ENTITY ram_max.accesskey "R">
+<!ENTITY disk_max.label "Maxstorlek diskcache (kB): ">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "Automatisk rensning">
+<!ENTITY auto_clear_note.label "OBS:">
+<!ENTITY auto_clear_note2.label "Dina inställningar nedan kommer att ignoreras om de anges till för låga värden. Procenttalen skall sammantaget motsvara minst 10 MB.">
+<!ENTITY auto_clear_ram.label "Rensa RAM vid:">
+<!ENTITY auto_clear_ram.accesskey "M">
+<!ENTITY acr_tooltip.label "Det här rensar RAM-minnet automatiskt när procenttalet når det angivna värdet.">
+<!ENTITY auto_clear_disk.label "Rensa disk vid:">
+<!ENTITY auto_clear_disk.accesskey "k">
+<!ENTITY acd_tooltip.label "Det här rensar diskcachen automatiskt när procenttalet når det angivna värdet.">
+<!ENTITY clear_ram.label "Rensa RAM-cacheminnet">
+<!ENTITY clear_ram.accesskey "R">
+<!ENTITY clear_disk.label "Rensa diskcachen">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "Rensa alla cacheminnen">
+<!ENTITY clear_all.accesskey "a">
+<!ENTITY update_stats.label "Uppdatera status">
+<!ENTITY update_stats.accesskey "U">
