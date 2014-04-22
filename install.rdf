@@ -41,7 +41,7 @@
         <em:optionsURL>chrome://cachestatus/content/settings.xul</em:optionsURL>
         <em:iconURL>chrome://cachestatus/skin/48.png</em:iconURL>
         <em:icon64URL>chrome://cachestatus/skin/64.png</em:icon64URL>
-        <em:unpack>false</em:unpack>
+        <em:unpack>true</em:unpack>
         <em:type>2</em:type>
         <em:description>Easy cache status and management from status</em:description>
         <em:creator>Jason Purdy</em:creator>

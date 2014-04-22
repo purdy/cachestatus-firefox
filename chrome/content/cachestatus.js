@@ -118,7 +118,7 @@ function update_cache_status() {
  * how many decimal places...
 */
 function round_memory_usage( memory ) {
-    memory = eval( memory );
+    memory = parseFloat( memory );
     memory *= 10;
     memory = Math.round(memory)/10;
     return memory;
@@ -272,7 +272,7 @@ var csExtension = {
             popupset.removeChild( child_node );
             child_node = popupset.firstChild;
         }
-        var string_bundle = this._doc.getElementById( 'strings' );
+        var string_bundle = this._doc.getElementById( 'cache-status-strings' );
         if ( presence == 'original' ) {
             var ram_image = this._doc.createElement( 'image' );
             ram_image.setAttribute(

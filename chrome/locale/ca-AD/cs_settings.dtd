@@ -6,6 +6,8 @@
 <!ENTITY presence_icons.accesskey "i">
 <!ENTITY auto_update.label "Actualització Automàtica de la Barra d&apos;Estat">
 <!ENTITY auto_update.accesskey "A">
+<!ENTITY welcome.label "Display Welcome Page on Updates">
+<!ENTITY welcome.accesskey "W">
 <!ENTITY au_tooltip.label "Pot provocar que vagi més lent/peti el programa">
 <!ENTITY ram_max.label "Marxa el Caxè Màxim de RAM (KOct):">
 <!ENTITY ram_max.accesskey "r">
