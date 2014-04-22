@@ -16,6 +16,7 @@ locale cachestatus it-IT jar:chrome/cachestatus.jar!/locale/it-IT/
 locale cachestatus ja-JP jar:chrome/cachestatus.jar!/locale/ja-JP/
 locale cachestatus ko-KR jar:chrome/cachestatus.jar!/locale/ko-KR/
 locale cachestatus lt-LT jar:chrome/cachestatus.jar!/locale/lt-LT/
+locale cachestatus nl    jar:chrome/cachestatus.jar!/locale/nl/
 locale cachestatus nl-NL jar:chrome/cachestatus.jar!/locale/nl-NL/
 locale cachestatus pl-PL jar:chrome/cachestatus.jar!/locale/pl-PL/
 locale cachestatus pt-BR jar:chrome/cachestatus.jar!/locale/pt-BR/
