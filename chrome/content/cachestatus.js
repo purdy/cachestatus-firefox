@@ -162,7 +162,8 @@ var csExtension = {
     register: function()
     {
         var statusbar = document.getElementById('status-bar');
-        if (statusbar) {
+        console.error(statusbar.parentNode);
+        if (statusbar && statusbar.parentNode && statusbar.parentNode.clientHeight) {
           statusbar.appendChild(document.getElementById('cachestatus-panel'));
         }
     
