@@ -161,12 +161,17 @@ var csExtension = {
     },
     register: function()
     {
+        var statusbar = document.getElementById('status-bar');
+        if (statusbar) {
+          statusbar.appendChild(document.getElementById('cachestatus-panel'));
+        }
+    
         var prefService = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
         this._prefs  = prefService.getBranch("extensions.cachestatus.");
         if ( this._prefs.getBoolPref( 'auto_update' ) ) {
             var appcontent = document.getElementById( 'appcontent' );
             if ( appcontent )
-            	appcontent.addEventListener( "DOMContentLoaded", this.onPageLoad, true );
+              appcontent.addEventListener( "DOMContentLoaded", this.onPageLoad, true );
         }
         this._branch = this._prefs;
         this._branch.QueryInterface(Components.interfaces.nsIPrefBranch2);
