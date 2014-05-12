@@ -26,6 +26,10 @@
                     accesskey="&clear_all.accesskey;"
                     oncommand="cs_clear_cache();" />
                 <menuitem
+                    label="&clear_cache2.label;"
+                    accesskey="&clear_cache2.accesskey;"
+                    oncommand="cs_clear_cache( 'cache2' );" />
+                <menuitem
                     label="&update_stats.label;"
                     accesskey="&update_stats.accesskey;"
                     oncommand="update_cache_status();" />
