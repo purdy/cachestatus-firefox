@@ -14,6 +14,8 @@ var CSSettings = {
 
         // Get the automatic update preference
         document.getElementById('auto_update').checked = prefs.getBoolPref('extensions.cachestatus.auto_update');
+        document.getElementById('use_statusbar').checked = prefs.getBoolPref('extensions.cachestatus.use_statusbar');
+        document.getElementById('forced_on_statusbar').checked = prefs.getBoolPref('extensions.cachestatus.forced_on_statusbar');
         document.getElementById('welcome').checked = prefs.getBoolPref('extensions.cachestatus.welcome');
 
         // auto clear settings
@@ -30,7 +32,7 @@ var CSSettings = {
 
         // Need to get the browser.cache.disk.capacity setting
         // and put it into the max_disk_cache textbox
-        var disk_capacity = prefs.getIntPref( 'browser.cache.disk.capacity');
+        var disk_capacity = prefs.getIntPref( 'browser.cache.disk.capacity' );
         if ( disk_capacity != null ) {
            document.getElementById('max_disk_cache').value = disk_capacity;
         }
@@ -49,7 +51,10 @@ var CSSettings = {
         // Set the 'auto_update' preference, using the state of the
         // checkbox
         prefs.setBoolPref( 'auto_update', document.getElementById('auto_update').checked );
-        // Set the 'welcome' preference, using the state of the
+        // checkbox
+        prefs.setBoolPref( 'use_statusbar', document.getElementById('use_statusbar').checked );
+        // checkbox
+        prefs.setBoolPref( 'forced_on_statusbar', document.getElementById('forced_on_statusbar').checked );
         // checkbox
         prefs.setBoolPref( 'welcome', document.getElementById('welcome').checked );
         /*

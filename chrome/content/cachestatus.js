@@ -34,60 +34,101 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
-Components.utils.import("resource://gre/modules/DownloadUtils.jsm");
-Components.utils.import("resource://gre/modules/LoadContextInfo.jsm");
+
+try {
+    Components.utils.import("resource://gre/modules/DownloadUtils.jsm");
+    Components.utils.import("resource://gre/modules/LoadContextInfo.jsm");
+} catch (e) {}
  
 function cs_updated_stat( type, aDeviceInfo, prefs ) {
     var current = aDeviceInfo.totalSize;
     var max = aDeviceInfo.maximumSize;
-
+    
     var cs_id = 'cachestatus';
     var bool_pref_key = 'auto_clear';
     var int_pref_key = 'ac';
     var clear_directive;
-    if ( type == 'memory' ) {
+    if ( type == 'memory' || type == 'memory2' ) {
         cs_id += '-ram-label';
         bool_pref_key += '_ram';
         int_pref_key += 'r_percent';
         clear_directive = 'ram';
-        // this is some sort of random bug workaround
-        if ( current > max && current == 4096 ) {
-            current = 0;
+        if (type == 'memory') {
+          // this is some sort of random bug workaround
+          if ( current > max && current == 4096 ) {
+              current = 0;
+          }
+          cs_updated_stat.memory = current;
+          cs_updated_stat.maxmemory = max;
         }
-    } else if ( type == 'disk' ) {
+        else {
+          cs_updated_stat.memory2 = current;
+        }
+        
+        current = (cs_updated_stat.memory || 0) + (cs_updated_stat.memory2 || 0);
+        max =  cs_updated_stat.maxmemory;
+        if (!max) {
+          try {
+            max = Components.classes["@mozilla.org/preferences-service;1"]
+              .getService(Components.interfaces.nsIPrefService)
+              .getBranch( "" )
+              .getIntPref( 'browser.cache.memory.capacity' );
+          } catch (e) {
+            max = "-";
+          }
+        }
+    } else if ( type == 'disk' || type == 'disk2' ) {
         cs_id += '-hd-label';
         bool_pref_key += '_disk';
         int_pref_key += 'd_percent';
         clear_directive = 'disk';
-    } else if ( type == 'disk2' ) {
-        console.error('cache2, disk:', current);
-        return;
-    } else if ( type == 'memory2' ) {
-        console.error('cache2, memory:', current);
-        return;
+        if (type == 'disk') {
+          cs_updated_stat.disk = current;
+          cs_updated_stat.maxdisk = max;
+        }
+        else {
+          cs_updated_stat.disk2 = current;
+        }
+        
+        current = (cs_updated_stat.disk || 0) + (cs_updated_stat.disk2 || 0);
+        max =  cs_updated_stat.maxdisk;
+        if (!max) {
+          try {
+            max = Components.classes["@mozilla.org/preferences-service;1"]
+              .getService(Components.interfaces.nsIPrefService)
+              .getBranch( "" )
+              .getIntPref( 'browser.cache.disk.capacity' );
+          } catch (e) {
+            max = "-";
+          }
+        }
     } else {
         // offline ... or something else we don't manage
         return;
     }
-
     // Now, update the status bar label...
+    if (parseInt(current)) {
+      current = DownloadUtils.convertByteUnits(current).join(" ");
+    }
+    if (parseInt(max)) {
+      max = DownloadUtils.convertByteUnits(max).join(" ");
+    }
+            
     var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"]
         .getService(Components.interfaces.nsIWindowMediator);
-    var win = wm.getMostRecentWindow("navigator:browser");
-    if (win) {
-        current = DownloadUtils.convertByteUnits(current).join(" ");
-        max = DownloadUtils.convertByteUnits(max).join(" ");
-    
-        win.document.getElementById(cs_id).setAttribute(
-            'value', current + " / " + max );
+    var enumerator = wm.getEnumerator("navigator:browser");
+    while(enumerator.hasMoreElements()) {
+        var win = enumerator.getNext();
+        if (win) {
+            win.document.getElementById(cs_id).setAttribute(
+                'value', current + " / " + max );
+        }
     }
 }
 
 function update_cache_status() {
     var cache_service = Components.classes["@mozilla.org/network/cache-service;1"]
         .getService(Components.interfaces.nsICacheService);
-    var cache2_service = Components.classes["@mozilla.org/netwerk/cache-storage-service;1"]
-        .getService(Components.interfaces.nsICacheStorageService);
     var prefService = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefService);
     var prefs  = prefService.getBranch("extensions.cachestatus.");
@@ -101,7 +142,14 @@ function update_cache_status() {
     cache_service.visitEntries( cache_visitor );
     //Cache 2
     // pref: browser.cache.use_new_backend = 1
-    if (cache_service.cacheIOTarget == cache2_service.ioTarget) return
+    try {
+      var cache2_service = Components.classes["@mozilla.org/netwerk/cache-storage-service;1"]
+        .getService(Components.interfaces.nsICacheStorageService);
+    }
+    catch (e) {
+      return;
+    }
+    if (cache_service.cacheIOTarget == cache2_service.ioTarget) return;
 
     // chrome://browser/content/preferences/advanced.js
     function Visitor(expected, device) {
@@ -194,13 +242,15 @@ var csExtension = {
         var prefService = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
         this._prefs  = prefService.getBranch("extensions.cachestatus.");
         
-        var statusbar = document.getElementById('status-bar');
-        var showOnStatus = statusbar && statusbar.parentNode && statusbar.parentNode.clientHeight;
-        try {
-          showOnStatus = this._prefs.getBoolPref( 'forced_on_statusbar' );
-        } catch (e) {}
-        if (showOnStatus) {
-          statusbar.appendChild(document.getElementById('cachestatus-panel'));
+        if (this._prefs.getBoolPref( 'use_statusbar' )) {
+          var statusbar = document.getElementById('status-bar');
+          var showOnStatus = statusbar && statusbar.parentNode && statusbar.parentNode.clientHeight;
+          showOnStatus = showOnStatus || this._prefs.getBoolPref( 'forced_on_statusbar' );
+          if (showOnStatus) {
+            try {
+              statusbar.appendChild(document.getElementById('cachestatus-panel'));
+            } catch (e) {}
+          }
         }
 
         if ( this._prefs.getBoolPref( 'auto_update' ) ) {

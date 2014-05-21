@@ -28,5 +28,11 @@
 <!ENTITY clear_disk.accesskey "D">
 <!ENTITY clear_all.label "Limpiar Toda la Cache">
 <!ENTITY clear_all.accesskey "T">
+<!ENTITY clear_cache2.label "Clear Cache2">
+<!ENTITY clear_cache2.accesskey "2">
 <!ENTITY update_stats.label "Actualizar Datos">
 <!ENTITY update_stats.accesskey "A">
+<!ENTITY use_statusbar.label "Try to keep the UI on statusbar (restart required)">
+<!ENTITY use_statusbar.accesskey "b">
+<!ENTITY forced_on_statusbar.label "If you have statusbar and the extension cannot detect it, use this option to force the placement.">
+<!ENTITY forced_on_statusbar.accesskey "f">

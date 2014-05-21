@@ -30,3 +30,7 @@
 <!ENTITY clear_all.accesskey "a">
 <!ENTITY update_stats.label "Actualitza estadístiques">
 <!ENTITY update_stats.accesskey "u">
+<!ENTITY use_statusbar.label "Try to keep the UI on statusbar (restart required)">
+<!ENTITY use_statusbar.accesskey "b">
+<!ENTITY forced_on_statusbar.label "If you have statusbar and the extension cannot detect it, use this option to force the placement.">
+<!ENTITY forced_on_statusbar.accesskey "f">
