@@ -1,0 +1,38 @@
+<!ENTITY settings_title.label "Nastavitve razširitve Cache Status">
+<!ENTITY presence.label "Prisotnost vrstice stanja">
+<!ENTITY presence_original.label "Izvirna">
+<!ENTITY presence_original.accesskey "z">
+<!ENTITY presence_icons.label "Ikone">
+<!ENTITY presence_icons.accesskey "k">
+<!ENTITY auto_update.label "Samodejna posodobitev statistike">
+<!ENTITY auto_update.accesskey "S">
+<!ENTITY welcome.label "Prikaži stran dobrodošlice ob posodobitvah">
+<!ENTITY welcome.accesskey "P">
+<!ENTITY au_tooltip.label "Lahko povzroči počasnost/sesutja">
+<!ENTITY ram_max.label "Nastavite največjo vel. predpomnilnika RAM (kB):">
+<!ENTITY ram_max.accesskey "R">
+<!ENTITY disk_max.label "Nastavite največjo vel. predpomnilnika diska (kB):">
+<!ENTITY disk_max.accesskey "d">
+<!ENTITY auto_clear.caption "Samodejno čiščenje">
+<!ENTITY auto_clear_note.label "OPOMBA:">
+<!ENTITY auto_clear_note2.label "Vaše spodnje nastavitve bodo prezrte, če so nastavljene na prepočasno. Odstotki morajo doseči najmanj 10 MB.">
+<!ENTITY auto_clear_ram.label "Počisti RAM ob:">
+<!ENTITY auto_clear_ram.accesskey "A">
+<!ENTITY acr_tooltip.label "To bo samodejno počistilo RAM, ko odstotek doseže to količino.">
+<!ENTITY auto_clear_disk.label "Počisti disk ob:">
+<!ENTITY auto_clear_disk.accesskey "s">
+<!ENTITY acd_tooltip.label "To bo samodejno počistilo predpomnilnik diska, ko odstotek doseže to količino.">
+<!ENTITY clear_ram.label "Počisti predpomnilnik RAM">
+<!ENTITY clear_ram.accesskey "R">
+<!ENTITY clear_disk.label "Počisti predpomnilnik diska">
+<!ENTITY clear_disk.accesskey "d">
+<!ENTITY clear_all.label "Počisti ves predpomnilnik">
+<!ENTITY clear_all.accesskey "v">
+<!ENTITY clear_cache2.label "Počisti predpomnilnik 2">
+<!ENTITY clear_cache2.accesskey "2">
+<!ENTITY update_stats.label "Posodobi statistiko">
+<!ENTITY update_stats.accesskey "P">
+<!ENTITY use_statusbar.label "Poskusi ohraniti up. vmesnik v vrstici stanja (zahtevan ponovni zagon)">
+<!ENTITY use_statusbar.accesskey "o">
+<!ENTITY forced_on_statusbar.label "Če imate vrstico stanja in jo razširitev ne zazna, uporabite to možnost, da vsilite vstavitev.">
+<!ENTITY forced_on_statusbar.accesskey "Č">
