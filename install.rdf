@@ -36,7 +36,7 @@
         <em:translator>lloco</em:translator>
         <em:translator>barryoni</em:translator>
         <!-- optional items -->
-        <em:homepageURL>http://add0n.com/cache-status.html</em:homepageURL>
+        <em:homepageURL>https://github.com/purdy/cachestatus-firefox</em:homepageURL>
         <em:aboutURL>chrome://cachestatus/content/about.xul</em:aboutURL>
         <em:optionsURL>chrome://cachestatus/content/settings.xul</em:optionsURL>
         <em:iconURL>chrome://cachestatus/skin/48.png</em:iconURL>
@@ -58,7 +58,7 @@
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                 <em:minVersion>1.5</em:minVersion>
-                <em:maxVersion>32.0</em:maxVersion>
+                <em:maxVersion>56.*</em:maxVersion>
             </Description>
         </em:targetApplication>
     </Description>
