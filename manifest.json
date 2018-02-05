@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "Cache Status",
+  "version": "1.0",
+
+  "description": "Easy cache status and management from status bar.",
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "cache@status.org"
+    }
+  },
+
+  "permissions": ["webNavigation", "storage"],
+
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "browser_style": true,
+    "default_popup": "cs-popup.html"
+  },
+
+  "background": {
+    "scripts": ["cachestatus.js"]
+  }
+
+}
