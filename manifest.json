@@ -16,7 +16,7 @@
     }
   },
 
-  "permissions": ["webNavigation", "storage"],
+  "permissions": ["browsingData", "notifications", "storage"],
 
   "browser_action": {
     "default_icon": "icons/48.png",
