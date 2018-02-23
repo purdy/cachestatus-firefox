@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Cache Status",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Easy cache status and management from tool bar.",
+    "description": "Description of the extension."
+  },
+
+  "notificationTitle": {
+    "message": "Yeah!",
+    "description": "Title of the cleared notification."
+  },
+
+  "notificationContent": {
+    "message": "Cache has been cleared.",
+    "description": "Warns the user that the cache has been cleaned."
+  }
+}
